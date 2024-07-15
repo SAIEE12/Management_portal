@@ -1,0 +1,201 @@
+/*Navbar*/
+.navbar{
+    background-color: #1f2c38;
+  }
+  
+  .navbar-toggler1{
+    
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color:  rgb(250, 251, 252);
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+  }
+  
+
+
+/*sidebar*/
+
+
+  .sidebar {
+  width: 220px; /* Adjust width as needed */
+  height: 100vh;
+  position:absolute;
+  background-color: #1f2c38; /* Sidebar background color */
+  margin-left: 0px; 
+  }
+
+
+
+  .list-group-item.list-group-item-action{
+    background-color: #1f2c38;
+    color: aliceblue
+  }
+
+  /*User Sidebar
+
+  .usersidebar {
+    width: 250px; /* Adjust width as needed 
+    position: fixed;
+    height: 100%;
+    background-color: #1f2c38; /* Sidebar background color 
+    margin-left: -20px;
+  }
+
+
+/*user sidebar
+  .list-group-item.list-group-item-action{
+    background-color: #1f2c38;
+    color: aliceblue
+  }
+*/
+ .UserSidebar-d-flex-flex-column-flex-shrink-0-p-3 {
+  height: 100%;
+ }
+
+
+
+
+
+  /* .main-content {
+    margin-top: 0px;
+    margin-left: 235px; /* Same as sidebar width *
+    padding: 20px;
+    width: calc(100% - 250px); /* Adjust width as needed *
+  } */
+
+  .table-data {
+    font-size: large;
+  }
+
+
+
+
+.header{
+  background-color: black;
+}
+
+  
+
+ /* Start */
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #212529;
+  color: white;
+  padding: 10px 20px;
+  font-size: 22px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.login-section button {
+  background-color: #343a40;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+
+}
+
+.login input {
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+}
+
+.login button {
+  padding: 10px 20px;
+  background-color: #4cb4f8;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.dashboard h2, .dashboard h3 {
+  color: #1f2c38;
+}
+
+
+/*Create User*/
+.create-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 600px;
+    display: inline-block;
+    
+    
+  
+}
+
+.create-user form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create-user input {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+.create-user button[type="submit"] {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.create-user button[type="button"] {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #e71138;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+/*App*/
+.main-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #faf9f6;
+  margin-left: 178px;
+}
